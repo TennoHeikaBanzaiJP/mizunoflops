@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🌟 Checkout Repository
+      - name: 🌟 Checkout
         uses: actions/checkout@v2
       
       - name: 🚀 Iniciar a procura
         run: echo "A Procura de estrelas novas... 🛰️"
       
-      - name: ✨ Discover New Stars
+      - name: ✨ Descobrindo estrelas
         run: echo "Escaneando a galaxia por estrelas... 🌌"
       
       - name: 🌠 Capturando estrelas
